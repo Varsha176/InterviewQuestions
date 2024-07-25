@@ -1,0 +1,14 @@
+1. Write correct xpaths without using any plugin.
+2. How to deal with dynamic and static webtable.
+3. Xpath Axis and use of relative locators.
+4. code to access excel sheets
+5. code to take full page screenshots  --   https://stackoverflow.com/questions/44085722/how-to-get-screenshot-of-full-webpage-using-selenium-and-java
+6. Cucumber webtable use and code
+7. Cucumber Options 
+8. Selenium 3 vs Selenium 4
+9. Code to read property file
+10. Parallel execution using TestNg
+11. Multiple window Handle
+12. Multiple Tab handle
+13. Interface used in the code.
+14. Constructor overloading use case in selenium
