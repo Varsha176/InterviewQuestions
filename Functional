@@ -1,0 +1,23 @@
+High Severity - High Priority
+Example: The application crashes when a user tries to log in.
+
+High Severity - Medium Priority
+Example: The payment gateway integration fails intermittently during peak hours.
+
+High Severity - Low Priority
+Example:formative pages such as the disclaimer and privacy policy are crashing. The bug’s severity is high, but as many users do not frequently access these pages,
+it is marked as a low priority by the project manager and business team.
+
+Low Severity - High Priority
+The company logo is displayed incorrectly on the homepage
+
+Low Severity - Medium Priority
+Example: The tooltip text for a button is incorrect.
+Priority: Medium, because it can cause confusion among users and should be fixed in the next release
+
+Low Severity - Low Priority
+Example: A minor grammatical error in a rarely visited help document.
+
+Risk based testing questions
+https://www.remoterocketship.com/advice/guide/qa-engineer/risk-based-testing-interview-questions-and-answers
+
