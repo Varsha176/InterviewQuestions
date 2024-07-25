@@ -1,0 +1,31 @@
+Status codes
+-------------
+100- continue
+102 - processing
+204- no content
+206- partial content
+300- multiple choices
+301-moved permanently 308-permanent redirect
+302-found 307 -temporary redirect
+304- not modified (caching purpose)
+400 bad request
+403 -forbidden
+404 -not found
+405 - method not allowed
+408- req timeout
+409- conflict
+413- payload too large
+415- unsupported media type
+500 internal server error
+501 -not implemented
+502-bad gateway
+503-service unavailable
+504- gateway timeout
+
+what response code will i get in return if I accidently use get method for a post call?
+405 Method Not Allowed
+
+If you delete a resource and then use the GET method to request that resource
+404 Not Found because the resource no longer exists on the server.
+
+Json parsing of array and object nested
