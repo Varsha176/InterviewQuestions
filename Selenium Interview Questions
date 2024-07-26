@@ -13,3 +13,18 @@
 13. Interface used in the code.
 14. Constructor overloading use case in selenium
 15. find broken links
+16. Difference between Selenium 3 and Selenium 4
+17. How will you handle multiple windows and get the title of child window 
+18. What is constructor overloading?
+19. Name the interface used in your Selenium project
+
+
+To do
+1) Learn and practice all Xpath techniques 
+https://www.youtube.com/playlist?list=PLcxbJOVMGpYAasBLHylqZ62XDFDBG7HOU
+
+2) Learn code to read properties files
+3) Learn code to read and write excel file (try to use hashmap)
+4) Practice Selenium code to handle dynamic webtable
+5) Practice selenium code to select date from Calender
+4) Selenium 4 coding
