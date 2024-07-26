@@ -1,9 +1,9 @@
-1. Write correct xpaths without using any plugin.
-2. How to deal with dynamic and static webtable.
+1. Write correct Xpaths without using any plugin.
+2. How to deal with dynamic and static web tables.
 3. Xpath Axis and use of relative locators.
-4. code to access excel sheets
+4. code to access Excel sheets
 5. code to take full page screenshots  --   https://stackoverflow.com/questions/44085722/how-to-get-screenshot-of-full-webpage-using-selenium-and-java
-6. Cucumber webtable use and code
+6. Cucumber web table use and code
 7. Cucumber Options 
 8. Selenium 3 vs Selenium 4
 9. Code to read property file
@@ -28,3 +28,50 @@ https://www.youtube.com/playlist?list=PLcxbJOVMGpYAasBLHylqZ62XDFDBG7HOU
 4) Practice Selenium code to handle dynamic webtable
 5) Practice selenium code to select date from Calender
 4) Selenium 4 coding
+
+
+*********************************************** Xpath Syntax ***********************************************
+Syntax:  //tag[@attribute=‘value’]
+
+Example: 
+<p id="id1">unique id</p>
+//tagname[@id=‘value’]
+
+Example: 
+<p name="name1">unique name</p>
+//tagname[@name=‘value’]
+
+Example: 
+<p class="class1">element 1</p>
+//p[@class='class1']
+
+Example: 
+<p class="class1">element 1</p>
+//p[text()=‘element 1’]
+
+
+Syntax: //tag[condition1 and condition2]     //tag[condition1 or condition2]
+
+How to Traverse from child to parent
+
+Syntax:
+//tag[condition]/..
+
+Traversing from child to parent of parent
+//tag[condition]/../..
+
+Traversing from  parent to child 
+//tag[condition]/tag[condition]
+
+// means anywhere
+Example:
+<div id="divC">
+<span>
+<input type="text">
+</span>
+</div>
+
+To get the xpath of above input we can write either
+1. //div[@id='divC’]/span/input
+2. //div[@id='divC']//input
+
