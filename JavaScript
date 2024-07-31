@@ -1,0 +1,3 @@
+Memory allocation in js
+diff between var,let and const keyword
+data types in Javascript
