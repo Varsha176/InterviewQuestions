@@ -34,6 +34,14 @@ page.locator().dragTo(page.locator())
 
 7. Upload single/multiple files: setInputFiles() method
 
+8. Loading Strategies
+waitForLoadState('load/networkidle')
+waitForUrl('/login')
+waitForTimeout(5000)
+waitForSelector(selector)
+waitForRequest('req') --wait untill this req is triggered
+
+
 
 
 
