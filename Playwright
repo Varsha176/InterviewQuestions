@@ -1,0 +1,40 @@
+1 : Locator Stratagies
+
+1: By ID,class name,text,CSS Selector, Xpath,datatestid, getByRole
+
+page.locator('id=lastname')
+page.locator('text=Submit')
+page.locator('css=input[name='telephone']')
+page.getByLabel('User Name')
+page.getByPlaceholder('name@example.com')
+page.getByText()
+page.getByAltText('playwright logo')
+(page.getByTitle('Issues count'))
+page.getByRole('role',{name:'value'}) -- page.getByRole('heading',{name:'Contact Us'})  -- designed for accessbility testing
+
+2: How to select dropdown in Playwright?
+
+page.selectOption(selector,{label:'labelname'})
+page.selectOption(selector,{value:'value'})
+page.selectOption(selector,{index:10})
+
+3: How to get all selectots
+
+1. use page.locator().all
+2. page.$$(selector)
+
+4. How to perform right click and shift click etc
+page.locator().click({button:'right/left/middle'})
+page.locator().click({modifiers:["shift/left"]})
+
+5. How to perform drag and drop
+page.locator().dragTo(page.locator())
+
+6. pressSequencially() method to type char by char
+
+7. Upload single/multiple files: setInputFiles() method
+
+
+
+
+
