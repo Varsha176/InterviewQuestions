@@ -1,6 +1,6 @@
 1 : Locator Stratagies
 
-1: By ID,class name,text,CSS Selector, Xpath,datatestid, getByRole
+1: By ID, class name, text, CSS Selector, Xpath,datatestid, getByRole
 
 page.locator('id=lastname')
 page.locator('text=Submit')
@@ -12,25 +12,25 @@ page.getByAltText('playwright logo')
 (page.getByTitle('Issues count'))
 page.getByRole('role',{name:'value'}) -- page.getByRole('heading',{name:'Contact Us'})  -- designed for accessbility testing
 
-2: How to select dropdown in Playwright?
+2: How to select the dropdown in Playwright?
 
 page.selectOption(selector,{label:'labelname'})
 page.selectOption(selector,{value:'value'})
 page.selectOption(selector,{index:10})
 
-3: How to get all selectots
+3: How to get all selectors
 
 1. use page.locator().all
 2. page.$$(selector)
 
-4. How to perform right click and shift click etc
+4. How to perform right-click and shift-click etc
 page.locator().click({button:'right/left/middle'})
 page.locator().click({modifiers:["shift/left"]})
 
 5. How to perform drag and drop
 page.locator().dragTo(page.locator())
 
-6. pressSequencially() method to type char by char
+6. presssequentially() method to type char by char
 
 7. Upload single/multiple files: setInputFiles() method
 
@@ -39,7 +39,19 @@ waitForLoadState('load/networkidle')
 waitForUrl('/login')
 waitForTimeout(5000)
 waitForSelector(selector)
-waitForRequest('req') --wait untill this req is triggered
+waitForRequest('req') --wait until this req is triggered
+
+9. How to handle multiple windows and tabs in Playwright?
+10. Architectural differences in Playwright, Selenium and Cypress
+11. How to deal with dynamic elements in Playwright
+12. How to test a test case with a different set of data in Playwright
+https://www.youtube.com/watch?v=CzQm-mVl4Hg
+13. What is Tracing?
+14. Tests passed locally but failed in CI pipeline, what can be the reason? how to debug this.
+https://medium.com/@varsha13/common-reasons-for-test-failures-in-the-ci-pipeline-b62ee7d5c6e0
+15. How to deal with elements that are disappearing promptly.
+16. In what way test cases executed by default ? Parallel or sequential
+17. Does Playwright support window and linux based automation?
 
 
 
