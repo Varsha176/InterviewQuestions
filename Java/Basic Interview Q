@@ -1,0 +1,14 @@
+ Q : Difference between primitive and non primitive data type.
+Ans: These are the most basic data types predefined by the Java language.
+Storage: They store actual values directly in memory.
+Memory Efficiency: Generally more memory-efficient as they store raw data.
+Null Values: Cannot be assigned null; they always hold a value.
+Examples: int, byte, short, long, float, double, boolean, char.
+
+Non-Primitive (Reference) Data Types:
+These are user-defined or built-in types that refer to objects.
+Storage: They store references (memory addresses) to objects, not the objects themselves.
+Memory Efficiency: Can be less memory-efficient than primitives due to object overhead and reference storage.
+Null Values: Can be assigned null, indicating the absence of an object reference.
+Methods: Have associated methods that can be invoked to perform operations on the object.
+Examples: String, Arrays, Classes (e.g., Object, Scanner), Interfaces.
