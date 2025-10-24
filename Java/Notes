@@ -1,3 +1,8 @@
 1. Bitwise XOR -- gives 1 for diff bits and 0 for same bits.
 2. << Shift left -- generally doubles the number: ex : (8<<1) == 16
 3. >> Shift right -- halfs the number : ex : (8 >> 1) == 4
+
+Rule of Thumb
+*********************
+1. 1 file class can have multiple classes,but only 1 public class is accepted.
+
