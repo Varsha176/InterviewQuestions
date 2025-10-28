@@ -6,3 +6,22 @@ Rule of Thumb
 *********************
 1. 1 file class can have multiple classes,but only 1 public class is accepted.
 
+Static
+*******************************
+1.The static keyword is a non-access modifier used for:Variables (class-level, shared across instances),Methods (called without object creation).
+2.Static variables and methods use memoStatic
+3.Static members have one copy shared across the class.Non-static members have a separate copy for each instance of the class.
+4.Static members are accessed via the class name.Non-static members are accessed via an object reference.
+5.Static members cannot be overridden.Non-static members can be overridden in subclasses.
+6.Static members cannot use this or super keyword.Non-static members can use this and super keyword.
+7.All static variables are stored in PermGen space of the heap memory.
+
+q-Can a constructor be static in Java? Why or why not?
+ans--No, a constructor cannot be static. Constructors are used to initialize objects (instances) of a class, while the static keyword applies to class-level members.
+A static constructor would contradict the purpose of object instantiation.
+
+
+
+
+
+
