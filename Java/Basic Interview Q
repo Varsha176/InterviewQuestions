@@ -1,4 +1,4 @@
- Q : Difference between primitive and non primitive data type.
+ Q_1 : Difference between primitive and non primitive data type.
 Ans: These are the most basic data types predefined by the Java language.
 Storage: They store actual values directly in memory.
 Memory Efficiency: Generally more memory-efficient as they store raw data.
@@ -12,3 +12,13 @@ Memory Efficiency: Can be less memory-efficient than primitives due to object ov
 Null Values: Can be assigned null, indicating the absence of an object reference.
 Methods: Have associated methods that can be invoked to perform operations on the object.
 Examples: String, Arrays, Classes (e.g., Object, Scanner), Interfaces.
+************************************************************************************************
+Q_2 : Pass by value vs Pass by reference
+When a primitive data type (like int, double, boolean) is passed to a method, a copy of its value is created and passed as the argument.
+Any modifications made to this copied value inside the method will not affect the original variable outside the method.
+
+When an object is passed to a method, a copy of the object's reference is passed as the argument.
+This means that both the original variable and the method's parameter now point to the same object in memory. 
+
+to copy array we can use arr.clone() or Arrays.copyOf(originalarr,length); -- in this case original array will be unmodified withinh its method
+https://www.youtube.com/watch?v=FBGJ4m3OpZE&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=20&t=6s
