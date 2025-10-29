@@ -20,6 +20,45 @@ q-Can a constructor be static in Java? Why or why not?
 ans--No, a constructor cannot be static. Constructors are used to initialize objects (instances) of a class, while the static keyword applies to class-level members.
 A static constructor would contradict the purpose of object instantiation.
 
+Q: Static Block?
+In Java, the initializer Block is used to initialize instance data members. The initializer block is executed whenever an object is created.
+The Initializer block is copied into Java compiler and then to every constructor.The initialization block is executed before the code in the constructor.
+
+**********************************************************************************************************************************
+********************************************* Switch ************************************************************************************
+int, char, string and enum allowed.
+The switch argument can be a variable expression.A case label cannot be a variable or variable expression. It must be a constant expression.
+switch (x + 1) --valid
+case 2 + 1: --Valid 
+case x + y: --invalid
+
+Enhanced Switch syntax: 
+1-- by using arrow syntax (no need to use break)
+-------------------------
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        String day = "wed";
+        String result ="";
+    result = switch (day)
+        {
+    case "sat","sun" -> "6 a.m";
+    case "mon" -> "8 a.m";
+    default -> "7 a.m";
+    };
+    System.out.println(result);
+    }
+}
+
+******************************************************** For Each Loop ****************************************************************************************************************
+
+1. For-each loop is not appropriate when you want to modify the array:
+2. For-Each loop do not keep track of the index.
+3. For-each only iterates forward over the array in single steps.
+
+*******************************************************************************************************************
+
+
 
 
 
